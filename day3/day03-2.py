@@ -15,7 +15,7 @@ def main():
     total_priority = 0
     count = 0
     ruck_set = set()
-    with open("resources/day03-input.txt") as f:
+    with open("day03-input.txt") as f:
         for line in f:
             count += 1
             if line.strip():

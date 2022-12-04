@@ -12,7 +12,7 @@ def main():
     high_list = [-1, -1, -1]
     min_high = -1
     tmp_count = 0
-    with open("resources/day01-input.txt") as f:
+    with open("day01-input.txt") as f:
         for line in f:
             if line.strip():
                 tmp_count += int(line.strip())

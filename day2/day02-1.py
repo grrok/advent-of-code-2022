@@ -15,7 +15,7 @@ def main():
         "C Z": 3 + 3  #(S, S) DRAW
     }
     score = 0
-    with open("resources/day02-input.txt") as f:
+    with open("day02-input.txt") as f:
         for line in f:
             if line.strip():
                 score += score_dict[line.strip()]

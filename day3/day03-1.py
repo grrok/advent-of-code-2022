@@ -22,7 +22,7 @@ Well... the ord() solution seems simpler.
 
 def main():
     total_priority = 0
-    with open("resources/day03-input.txt") as f:
+    with open("day03-input.txt") as f:
         for line in f:
             if line.strip():
                 total_priority += get_priority(find_common_type(line.strip()))

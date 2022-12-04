@@ -8,7 +8,7 @@ And just test tmp_count against high_cal whenever we hit the delimiter.
 def main():
     tmp_count = 0
     high_cal = -1
-    with open("resources/day01-input.txt") as f:
+    with open("day01-input.txt") as f:
         for line in f:
             if line.strip():
                 tmp_count += int(line.strip())

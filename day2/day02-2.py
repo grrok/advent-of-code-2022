@@ -15,7 +15,7 @@ def main():
         "C Z": 1 + 6  #(S, R) WIN
     }
     score = 0
-    with open("resources/day02-input.txt") as f:
+    with open("day02-input.txt") as f:
         for line in f:
             if line.strip():
                 score += score_dict[line.strip()]
