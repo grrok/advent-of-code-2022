@@ -19,7 +19,7 @@ def main():
                 contain_count += 1
     print("Contained Ranges: " + str(contain_count))
 
-# Will parse line, and return it in the format of a list containing two tuples:
+# Will parse line, and return it in the format of a list containing two tuples (yuck):
 # [(start, end), (start, end)]
 def parse_line(line):
     ranges = []

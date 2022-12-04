@@ -1,6 +1,6 @@
 """
 Just replaced range_contain with range_overlap.
-range_overlap works, but, on further reflection, it's too late for me to fully grok it.
+range_overlap works, but, on further reflection, it's too late for me to fully grasp it.
 Look over it again tomorrow.
 """
 def main():
@@ -12,7 +12,7 @@ def main():
                 overlap_count += 1
     print("Overlapping Ranges: " + str(overlap_count))
 
-# Will parse line, and return it in the format of a list containing two tuples:
+# Will parse line, and return it in the format of a list containing two tuples (yuck):
 # [(start, end), (start, end)]
 def parse_line(line):
     ranges = []
